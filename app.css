@@ -22,7 +22,7 @@ body {
 #mhcontent {
   color: white;
   font-weight: 100;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 #about {
@@ -65,10 +65,10 @@ body {
 }
 .typing {
   overflow: hidden;
-  border-right: 0.15em solid white;
+  border-right: 0.1em solid white;
   white-space: nowrap;
   animation: typing 10s forwards;
-  font-size: 1.6rem;
+  font-size: 1.75rem;
   width: 0;
 }
 
