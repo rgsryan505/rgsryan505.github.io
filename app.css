@@ -63,6 +63,7 @@ body {
 .container #title {
   display: inline-block;
 }
+
 .typing {
   overflow: hidden;
   border-right: 0.1em solid white;
@@ -129,4 +130,32 @@ span {
 
   border-radius: 20px;
   transition-duration: 3s;
+}
+
+.carousel-control-next {
+  background-color: black;
+  width: 40px;
+}
+
+.carousel-control-prev {
+  background-color: black;
+  width: 40px;
+}
+
+.play-btn {
+  position: absolute;
+  z-index: 666;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 0;
+}
+
+.play-btn:hover {
+  cursor: pointer;
+}
+
+.play-btn:focus {
+  outline: 0;
 }
