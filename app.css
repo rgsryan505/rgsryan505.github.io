@@ -3,6 +3,10 @@ body {
   font-family: Nunito, sans-serif;
 }
 
+footer {
+  height: 100px;
+}
+
 #mainNavbar .navbar-brand {
   color: #00a2ff;
   font-size: 2rem;
