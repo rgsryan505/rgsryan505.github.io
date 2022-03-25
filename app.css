@@ -34,6 +34,11 @@ footer {
   text-shadow: 0 0 7px white, 0 0 10px white, 0 0 30px #44bbff, 0 0 60px #44bbff;
 }
 
+.navbar.scrolled {
+  background: #003858;
+  transition: background 1s;
+}
+
 #hello {
   color: white;
   font-weight: 400;
@@ -65,24 +70,13 @@ footer {
 
 #mhcontent {
   color: white;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.25rem;
-}
-
-#project1 {
-  color: white;
-  font-weight: 100;
-  font-size: 1.75rem;
-}
-
-#project1:hover {
-  color: white;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #44bbff, 0 0 82px #44bbff;
 }
 
 #skillsheading {
   color: white;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.75rem;
 }
 
@@ -91,48 +85,57 @@ footer {
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #44bbff, 0 0 82px #44bbff;
 }
 
+#project1 {
+  color: white;
+  font-weight: 200;
+  font-size: 1.75rem;
+}
+
+#project1:hover {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #44bbff, 0 0 82px #44bbff;
+}
+
 #project1content {
   color: white;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.25rem;
 }
 
-.navbar.scrolled {
-  background: #003858;
-  transition: background 1s;
+#project2 {
+  color: white;
+  font-weight: 200;
+  font-size: 1.75rem;
+}
+
+#project2:hover {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #44bbff, 0 0 82px #44bbff;
+}
+
+#project2content {
+  color: white;
+  font-weight: 300;
+  font-size: 1.25rem;
 }
 
 @media (max-width: 1200px) {
   #mainheading {
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.5rem;
   }
 }
 
 @media (max-width: 1024px) {
   #mhcontent {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 0.75rem;
   }
 }
 
 @media (max-width: 1024px) {
   #project1content {
-    font-weight: 400;
-    font-size: 0.75rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  #about {
-    font-weight: 100;
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  #abcontent {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 0.75rem;
   }
 }
