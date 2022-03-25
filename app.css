@@ -85,6 +85,25 @@ footer {
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #44bbff, 0 0 82px #44bbff;
 }
 
+#projectrow {
+  border: solid white 5px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#projectheading {
+  color: white;
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+#projectheading:hover {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #44bbff, 0 0 82px #44bbff;
+}
+
 #project1 {
   color: white;
   font-weight: 200;
