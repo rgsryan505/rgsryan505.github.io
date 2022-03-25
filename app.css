@@ -31,7 +31,7 @@ footer {
 }
 
 #navbartext:hover {
-  text-shadow: 0 0 7px #44bbff, 0 0 10px #44bbff, 0 0 30px #44bbff;
+  text-shadow: 0 0 7px white, 0 0 10px white, 0 0 30px #44bbff, 0 0 60px #44bbff;
 }
 
 #hello {
@@ -106,7 +106,7 @@ footer {
 }
 
 .navbar.scrolled {
-  background: black;
+  background: #003858;
   transition: background 1s;
 }
 
