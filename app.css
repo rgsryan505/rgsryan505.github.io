@@ -119,6 +119,10 @@ footer {
   font-size: 1.25rem;
 }
 
+#bold {
+  font-weight: 600;
+}
+
 @media (max-width: 1200px) {
   #mainheading {
     font-weight: 200;
