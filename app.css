@@ -69,34 +69,26 @@ footer {
   font-size: 1.25rem;
 }
 
-#about {
-  color: white;
-  font-weight: 100;
-  font-size: 1.5rem;
-}
-
-#abcontent {
-  color: white;
-  font-weight: 100;
-  font-size: 2rem;
-}
-
-#abcontent span {
-  color: white;
-  font-weight: 100;
-  font-size: 0.75rem;
-}
-
 #project1 {
   color: white;
   font-weight: 100;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+}
+
+#project1:hover {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #44bbff, 0 0 82px #44bbff;
 }
 
 #skillsheading {
   color: white;
   font-weight: 100;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+}
+
+#skillsheading:hover {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #44bbff, 0 0 82px #44bbff;
 }
 
 #project1content {
@@ -119,14 +111,14 @@ footer {
 
 @media (max-width: 1024px) {
   #mhcontent {
-    font-weight: 100;
+    font-weight: 400;
     font-size: 0.75rem;
   }
 }
 
 @media (max-width: 1024px) {
   #project1content {
-    font-weight: 100;
+    font-weight: 400;
     font-size: 0.75rem;
   }
 }
@@ -134,14 +126,14 @@ footer {
 @media (max-width: 1200px) {
   #about {
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 1200px) {
   #abcontent {
     font-weight: 100;
-    font-size: 0.5rem;
+    font-size: 0.75rem;
   }
 }
 
@@ -149,7 +141,7 @@ footer {
   #hello,
   #skillsheading,
   #project1 {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 }
 
