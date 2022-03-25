@@ -1,6 +1,20 @@
 body {
-  background-color: #002149;
+  background-image: url(https://images.unsplash.com/photo-1529753253655-470be9a42781?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: Nunito, sans-serif;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 footer {
@@ -8,19 +22,45 @@ footer {
 }
 
 #mainNavbar .navbar-brand {
-  color: #00a2ff;
+  color: white;
   font-size: 2rem;
   font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#mainNavbar .nav-link {
+#navbartext:hover {
+  text-shadow: 0 0 7px white, 0 0 10px white, 0 0 30px #44bbff, 0 0 60px #44bbff;
+}
+
+#hello {
   color: white;
-  font-size: 1.5rem;
-  font-weight: 100;
+  font-weight: 400;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: textfadeIn ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-#mainNavbar .nav-link:hover {
-  color: #00a2ff;
+#hello:hover {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #44bbff, 0 0 82px #44bbff;
+}
+
+@keyframes textfadeIn {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #mhcontent {
@@ -29,61 +69,37 @@ footer {
   font-size: 1.25rem;
 }
 
-#about {
-  color: white;
-  font-weight: 100;
-  font-size: 1.5rem;
-}
-
-#abcontent {
-  color: white;
-  font-weight: 100;
-  font-size: 2rem;
-}
-
-#abcontent span {
-  color: white;
-  font-weight: 100;
-  font-size: 0.75rem;
-}
-
 #project1 {
   color: white;
   font-weight: 100;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+}
+
+#project1:hover {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #44bbff, 0 0 82px #44bbff;
+}
+
+#skillsheading {
+  color: white;
+  font-weight: 100;
+  font-size: 1.75rem;
+}
+
+#skillsheading:hover {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #44bbff, 0 0 82px #44bbff;
 }
 
 #project1content {
   color: white;
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .navbar.scrolled {
-  background: black;
+  background: #003858;
   transition: background 1s;
-}
-
-.container #title {
-  display: inline-block;
-}
-
-.typing {
-  overflow: hidden;
-  border-right: 0.1em solid white;
-  white-space: nowrap;
-  animation: typing 10s forwards;
-  font-size: 1.75rem;
-  width: 0;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
 }
 
 @media (max-width: 1200px) {
@@ -93,17 +109,46 @@ footer {
   }
 }
 
+@media (max-width: 1024px) {
+  #mhcontent {
+    font-weight: 400;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #project1content {
+    font-weight: 400;
+    font-size: 0.75rem;
+  }
+}
+
 @media (max-width: 1200px) {
   #about {
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 1200px) {
   #abcontent {
     font-weight: 100;
-    font-size: 0.5rem;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #hello,
+  #skillsheading,
+  #project1 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #img1,
+  #img2 {
+    width: 0;
   }
 }
 
