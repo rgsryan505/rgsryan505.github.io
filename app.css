@@ -195,9 +195,17 @@ footer {
 }
 
 @media (max-width: 1024px) {
+  #project2content {
+    font-weight: 300;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 1024px) {
   #hello,
   #skillsheading,
-  #project1 {
+  #project1,
+  #project2 {
     font-size: 1rem;
   }
 }
