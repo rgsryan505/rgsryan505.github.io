@@ -241,27 +241,11 @@ span {
 .carousel-control-next {
   background-color: black;
   width: 40px;
+  height: 100px;
 }
 
 .carousel-control-prev {
   background-color: black;
   width: 40px;
-}
-
-.play-btn {
-  position: absolute;
-  z-index: 666;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: transparent;
-  border: 0;
-}
-
-.play-btn:hover {
-  cursor: pointer;
-}
-
-.play-btn:focus {
-  outline: 0;
+  height: 100px;
 }
