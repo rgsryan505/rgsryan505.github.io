@@ -241,11 +241,11 @@ span {
 .carousel-control-next {
   background-color: black;
   width: 40px;
-  height: 100px;
+  height: 250px;
 }
 
 .carousel-control-prev {
   background-color: black;
   width: 40px;
-  height: 100px;
+  height: 250px;
 }
