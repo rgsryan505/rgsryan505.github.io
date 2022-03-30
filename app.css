@@ -1,3 +1,15 @@
+.cursor {
+  position: relative;
+  max-width: auto;
+  margin: auto;
+  border: 1.5px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  z-index: 100;
+  transform: translate (-50%, -50%);
+}
+
 @keyframes move {
   100% {
     transform: translate3d(0, 0, 1px) rotate(360deg);
@@ -231,7 +243,8 @@ footer {
 }
 
 #mainNavbar {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.308);
+  z-index: 100;
 }
 
 #mainNavbar .navbar-brand {
@@ -245,11 +258,6 @@ footer {
 
 #navbartext:hover {
   text-shadow: 0 0 7px #fff, 0 0 30px #44bbff;
-}
-
-.navbar.scrolled {
-  background-color: #000000;
-  transition: 1s;
 }
 
 #hello {
